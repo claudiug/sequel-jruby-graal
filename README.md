@@ -30,3 +30,23 @@ Running 1m test @ http://localhost:3000
 - Requests/sec:   `2304.75`
 
 - Transfer/sec:     14.41MB
+
+ **ruby**:
+
+ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin17]
+
+Running 1m test @ http://localhost:3000
+  12 threads and 400 connections
+
+	Thread Stats   Avg      Stdev     Max   +/- Stdev
+
+    Latency    47.41ms   41.16ms 607.92ms   85.71%
+
+    Req/Sec   338.66     68.21   404.00     83.64%
+
+    20255 requests in 1.00m, 126.66MB read
+
+    Socket errors: connect 157, read 201, write 8, timeout 0
+
+Requests/sec:    `337.03`
+Transfer/sec:      2.11MB
