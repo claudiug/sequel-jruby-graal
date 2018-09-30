@@ -3,7 +3,7 @@ command to start puma: `rackup -p 3000 -E production`
 number of items in db: 34
 everything is run 10 time using:
 
-` wrk -t12 -c400 -d60s http://localhost:3000`
+`wrk -t12 -c400 -d60s http://localhost:3000`
 
 results
 
